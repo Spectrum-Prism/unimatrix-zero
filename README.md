@@ -19,6 +19,9 @@ Spectrum-Prism with Claude. Anything goes; each folder below holds one kind of t
 - Default branch is `Prism`.
 - Never commit secrets (API keys, passwords, tokens). Use `.env` files, which are ignored by `.gitignore`.
 - Each project in `projects/` gets its own `README.md` explaining what it is and how to run it.
+- Code, scripts, and configs reach `Prism` through a pull request from a feature branch,
+  reviewed before merging. Low-stakes changes (notes, typo fixes, docs) can be pushed
+  straight to `Prism`.
 
 ## License
 
